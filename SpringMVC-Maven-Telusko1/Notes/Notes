@@ -1,0 +1,2 @@
+All the processing of data and logic must be done in Services not inside the controllers. In real projects we may need to access data from database, fetching stock market price …..
+ we can ask the service class to do for us and simply call service class method inside our controller 
