@@ -5,16 +5,7 @@
 <web-app>
 	<display-name>Archetype Created Web Application</display-name>
 
-	<!-- Configuring the Dispatcher Servlet to handle all the request come from 
-		user -->
-	<servlet>
-		<servlet-name>Login</servlet-name>
-		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>Login</servlet-name> <!-- DS config file name must be DS-servlet.xml --><!-- {DS_NameINWeb.xml}-servlet.xml -->
-		<url-pattern>/</url-pattern> <!-- for all requests call the DispatcherServlet class, which is in spring framework library  -->
-	</servlet-mapping>
+	
 
 
 </web-app>
